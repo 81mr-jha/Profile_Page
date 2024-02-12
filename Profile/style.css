@@ -1,0 +1,163 @@
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid black;
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.navbar-brand {
+  color: #343a40;
+  font-weight: bold;
+  margin-left: 8px;
+}
+.navbar-nav .nav-link {
+  color: black;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  background-color: transparent !important;
+  color: rgba(112, 128, 144, 0.927);
+}
+.navbar .nav-link.active {
+  background-color: transparent !important;
+  color: inherit;
+}
+/* Details section */
+.row {
+  margin-bottom: 3px;
+}
+.col-md-6 {
+  margin-bottom: 20px;
+}
+/* Company Details section */
+.col-md-4 {
+  margin-bottom: 20px; /* Add space between columns */
+}
+/* Background */
+.bgimage {
+  background: linear-gradient(135deg, #a1c6ed, #f1dfa9);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 10px;
+  padding: 10px;
+}
+label {
+  display: block;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  font-family: poppins;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+  border: none;
+  border-bottom: 1px solid #0a0909;
+  padding: 5px 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: border-bottom-color 0.3s ease;
+}
+.underline-input {
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  border-radius: 0;
+  background-color: transparent;
+  padding: 5px;
+  width: 100%;
+}
+.col-md-7 {
+  background-color: white; /* Light Orange color */
+  padding: 20px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  /* margin-top: 5px; */
+}
+.col-md-5 {
+  padding-right: 0;
+  padding-left: 4px;
+}
+.card {
+  height: 100%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+h4 {
+  margin-top: 10px; /* Add space between profile heading and content */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: x-large;
+  font-weight: bold;
+  margin-left: 22px;
+}
+h5 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px; /* Adjust as needed */
+  margin-bottom: 20px; /* Add some space below the heading */
+  font-weight: bold;
+}
+.h6 {
+  font-weight: 300;
+}
+.profc {
+  position: relative;
+}
+.profileimg {
+  width: 100%;
+  height: 25vh;
+}
+.profile-section {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.myprofile {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.profile-info {
+  margin-left: 143px;
+}
+.main {
+  background-color: white;
+  border-radius: 25px;
+  margin-top: 5px;
+  padding: 15px;
+}
+
+.section-title{
+  position: relative;
+}
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 33%;
+  height: 0.5px;
+  background: linear-gradient(
+    to right,
+    blue 50%,
+    transparent 50%
+  );
+}
+@media(width<768px) {
+    .card{
+
+        margin-top: 3px;
+    }
+}
